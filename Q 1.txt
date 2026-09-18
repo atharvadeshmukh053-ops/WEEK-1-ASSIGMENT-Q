@@ -1,0 +1,8 @@
+# question no 1 print sum, difference, product,quotient and remainder.
+
+n1, n2 = 4, 7
+print(n1 + n2)
+print(n1 - n2)
+print(n1 / n2)
+print(n1 * n2)
+print(n1 % n2)

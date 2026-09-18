@@ -1,0 +1,13 @@
+# three numbers as input and print the largest and smallest number among them.
+
+n1 = 20
+n2 = 15
+n3 = 10
+
+if n1 > n2:
+    print(" n1 is the largest number")
+else:
+   if n2 > n3:
+       print(" n2 is the largest number")
+   else:
+       print(" n3 is the largest number")

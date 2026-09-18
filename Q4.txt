@@ -1,0 +1,19 @@
+
+# calculate the total percentage and grade based on the following criteria:
+A for 90+,B for 80-89, C for 70-79, D for 60-69 and F below 60.
+
+maths = int(input(" 90 "))
+physics = int(input(" 87 "))
+english = int(input(" 75 "))
+
+total = ((maths + physics + english)/300)*100
+percentage = ( total/300 )*100
+
+if percentage >= 90:
+    print(" A ")
+elif percentage >= 87:
+    print(" B ")
+elif percentage >= 75
+    print(" C ")
+else:
+    print(" Fail ")

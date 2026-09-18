@@ -1,0 +1,22 @@
+ Q 10
+def check_number(n):
+    if n <= 1:
+        return "Neither even, odd, nor prime"
+    elif n == 2:
+        return"Prime"
+    elif n % 2 == 0:
+        return "Even"
+    else:
+        is_prime = True
+        for i in range(3, int(n ** 0.5) +1, 2):
+            if n % i == 0:
+                is_prime = False
+                break
+            if is-prime:
+                return "Prime"
+            else:
+                return "odd"
+
+print(check_number(2)) # prime 
+print(check_number(6)) # even
+print(check_number(7)) # odd
