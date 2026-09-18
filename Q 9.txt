@@ -1,0 +1,13 @@
+def operation ( num1 = 10, num2 = 20, operator = "+"):
+    if operator == "+":
+        print(10 + 20)
+    elif operator == "-":
+        print (num1 - num2)
+    elif operator == "*":
+        print( num1 * num2)
+    else:
+        print( num1 / num2)
+operation(10,20,"+")
+operation(10,20,"-")
+operation(10,20,"*") 
+operation(10,20,"/")
